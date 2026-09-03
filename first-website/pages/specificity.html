@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>specificity</title>
+        <link rel="stylesheet" href="../assets/specificity.css">
+        <style>
+
+            /* embedded styles are more specific than external styles, but less specific than inline styles */
+            header {
+                background-color:blueviolet;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>specificity</h1>
+
+        <!-- inline styles are the MOST specific -->
+        <header style="background-color:lawngreen;">
+            stylesheet specificity <br>
+            external < embedded < inline
+        </header>
+
+        <main class="class" id="id">
+            identifier specificity <br>
+            default tags < classes < IDs
+        </main>
+
+        <footer>
+            location specificity <br>
+            higher < lower
+        </footer>
+
+        <a href="../index.html">return</a>
+    </body>
+</html>

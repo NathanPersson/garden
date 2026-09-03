@@ -1,0 +1,160 @@
+body {
+    background-color:#614d61;
+    color:#ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:50px;
+}
+
+p {
+    font-size:20px;
+}
+
+a:link {
+    color:cornflowerblue;
+}
+
+a:visited {
+    color:cornflowerblue;
+}
+
+a:hover {
+    color:cornflowerblue;
+}
+
+a:active {
+    color:cornflowerblue;
+}
+
+.alignright {
+    text-align:right;
+}
+
+.aligncenter {
+    text-align:center;
+}
+
+.alignjustify {
+    text-align:justify;
+}
+
+.italic {
+    font-style:italic;
+}
+
+.bold {
+    font-weight:bold;
+}
+
+.border1 {
+    border:10px white dotted;
+    width:210px;
+}
+
+.border2 {
+    border:10px white dotted;
+    width:210px;
+    margin-left:10px;
+    margin-top:-20px;
+}
+
+.border3 {
+    border:20px white dotted;
+    margin-left:-80px;
+}
+
+.border4 {
+    border:50px white double;
+    width:50px;
+    
+}
+
+.border5 {
+    border:5px white dotted;
+}
+
+.border6 {
+    border:20px white dotted;
+    margin-left:-100px;
+}
+
+.border7 {
+    border:5px white dotted;
+    margin-left:-100px;
+}
+
+.border8 {
+    border:6px white double;
+    margin-left:-40px;
+}
+
+.border9 {
+    border:2px white solid;
+    margin-left:20px;
+    padding:20px;
+}
+
+.border10 {
+    border:2px white dotted;
+    margin-left:20px;
+    padding:20px;
+}
+
+.border11 {
+    border:1px white solid;
+    margin-left:-100px;
+}
+
+.border12 {
+    border:5px white dotted;
+    width:65px;
+}
+
+.border13-1 {
+    border:3px white solid;
+    width:65px;
+}
+.border13-2 {
+    border:3px white solid;
+    width:65px;
+    margin-left:130px;
+}
+.border13-3 {
+    border:3px white solid;
+    width:65px;
+    margin-left:65px;
+}
+
+.border14-1 {
+    border:10px white dotted;
+    margin-left:-80px;
+}
+
+.border14-2 {
+    border:10px white dotted;
+    margin-left:-70px;
+    margin-top:-20px;
+}
+
+.dropshadow {
+    box-shadow: 10px 60px black;
+}
+
+.dropshadow2 {
+    box-shadow: 10px 20px cornflowerblue;
+}
+
+.gradient {
+    background: linear-gradient(360deg, #000000 0%, #614d61 100%);
+}
+
+.gradient2 {
+    background: linear-gradient(360deg, #ffffff 0%, #614d61 100%);
+}
+
+.gradient3 {
+    background: conic-gradient(from 90deg, #000000 0%, #614d61 100%);
+}
+
+.gradient4 {
+    background-image: linear-gradient(to bottom,#614d61,#614d61,#614d61,#ffbb00,#d13119,#614d61);
+}

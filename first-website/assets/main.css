@@ -1,0 +1,34 @@
+body {
+    background-color:rgb(154, 238, 255);
+
+    font-size:20px;
+}
+
+p {
+    background-color:rgba(0, 12, 100, 0.8);
+    color:rgb(77, 187, 255);
+
+    /* border-width, border-style, border-color */
+    border:10px groove;
+    /* padding is internal spacing within elements */
+    padding:20px;
+    /* margin is external spacing around elements */
+    margin:50px;
+    overflow:auto;
+}
+
+.banner {
+    background-color:chartreuse;
+    color:green;
+    text-align:center;
+}
+
+.gnargly {
+    border:60px red groove;
+}
+
+img {
+    max-width:100%;
+}
+
+/* css specificity: if there are conflicts in styling/format rules, those lower on the page take precedent */

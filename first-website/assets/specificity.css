@@ -1,0 +1,40 @@
+body {
+    background-color:tomato;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+/* external styles are the LEAST specific */
+header {
+    background-color:khaki;
+    margin:20px;
+    padding:20px;
+}
+
+/* default tags are the least specific */
+main {
+    background-color:crimson;
+    margin:20px;
+    padding:20px;
+}
+
+/* classes are more specific than default tags, but less specific than IDs */
+.class {
+    background-color:steelblue;
+}
+
+/* IDs are the most specific! */
+#id {
+    background-color:bisque;
+}
+
+/* rules higher on the style sheet are less specific than rules lower! */
+footer {
+    background-color:brown;
+    margin:20px;
+    padding:20px;
+}
+
+/* tags located lower in the file are more specific! */
+footer {
+    background-color:blue;
+}
