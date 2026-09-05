@@ -1,7 +1,17 @@
 body {
-    background-color:rgb(161, 236, 152);
+    background-color:#a1ec98;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left:20px;
 }
 
 .aligncenter {
     text-align:center;
+}
+
+.journal {
+    border: solid black 2px;
+    margin-left:20px;
+    margin-bottom:10px;
+    padding:20px;
+    max-width:800px;
 }
