@@ -1,0 +1,161 @@
+body {
+    background-color:#cef7fb;
+    color:#36596c;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:100px;
+    margin-right:100px;
+}
+
+p {
+    font-size:15px;
+}
+
+a:link {
+    color:#7cbcbb;
+}
+
+a:visited {
+    color:#7cbcbb;
+}
+
+a:hover {
+    color:#7cbcbb;
+}
+
+a:active {
+    color:#7cbcbb;
+}
+
+.alignright {
+    text-align:right;
+}
+
+.aligncenter {
+    text-align:center;
+}
+
+.alignjustify {
+    text-align:justify;
+}
+
+.italic {
+    font-style:italic;
+}
+
+.bold {
+    font-weight:bold;
+}
+
+.border1 {
+    border:10px #7cbcbb dotted;
+    width:210px;
+}
+
+.border2 {
+    border:10px #7cbcbb dotted;
+    width:210px;
+    margin-left:10px;
+    margin-top:-20px;
+}
+
+.border3 {
+    border:20px #7cbcbb dotted;
+    margin-left:-80px;
+}
+
+.border4 {
+    border:50px #7cbcbb double;
+    width:50px;
+    
+}
+
+.border5 {
+    border:5px #7cbcbb dotted;
+}
+
+.border6 {
+    border:20px #7cbcbb dotted;
+    margin-left:-100px;
+}
+
+.border7 {
+    border:5px #7cbcbb dotted;
+    margin-left:-100px;
+}
+
+.border8 {
+    border:6px #7cbcbb double;
+    margin-left:-40px;
+}
+
+.border9 {
+    border:2px #7cbcbb solid;
+    margin-left:20px;
+    padding:20px;
+}
+
+.border10 {
+    border:2px #7cbcbb dotted;
+    margin-left:20px;
+    padding:20px;
+}
+
+.border11 {
+    border:1px #7cbcbb solid;
+    margin-left:-100px;
+}
+
+.border12 {
+    border:5px #7cbcbb dotted;
+    width:65px;
+}
+
+.border13-1 {
+    border:3px #7cbcbb solid;
+    width:65px;
+}
+.border13-2 {
+    border:3px #7cbcbb solid;
+    width:65px;
+    margin-left:130px;
+}
+.border13-3 {
+    border:3px #7cbcbb solid;
+    width:65px;
+    margin-left:65px;
+}
+
+.border14-1 {
+    border:10px #7cbcbb dotted;
+    margin-left:-80px;
+}
+
+.border14-2 {
+    border:10px #7cbcbb dotted;
+    margin-left:-70px;
+    margin-top:-20px;
+}
+
+.dropshadow {
+    box-shadow: 10px 60px white;
+}
+
+.dropshadow2 {
+    box-shadow: 10px 20px #36596c;
+}
+
+.gradient {
+    background: linear-gradient(360deg, #36596c 0%, #cef7fb 100%);
+}
+
+.gradient2 {
+    background: linear-gradient(360deg, #ffffff 0%, #cef7fb 100%);
+}
+
+.gradient3 {
+    background: conic-gradient(from 90deg, #36596c 0%, #cef7fb 100%);
+}
+
+.gradient4 {
+    background-image: linear-gradient(to bottom,#cef7fb,#cef7fb,#cef7fb,#f6ff7b,#3eb66c,#cef7fb);
+}
