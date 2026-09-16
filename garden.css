@@ -1,7 +1,8 @@
 body {
-    background-color:#a1ec98;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-left:20px;
+    background-color:#c6ec98;
+    color: #103c1e;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left:40px;
 }
 
 .aligncenter {
@@ -9,9 +10,10 @@ body {
 }
 
 .journal {
-    border: solid black 2px;
-    margin-left:20px;
+    border: solid #103c1e 2px;
+    margin-left:40px;
     margin-bottom:10px;
-    padding:20px;
-    max-width:800px;
+    padding:40px;
+    padding-bottom:80px;
+    max-width:700px;
 }
