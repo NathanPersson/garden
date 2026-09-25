@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+    max-width:100%;
+}
+
+/* 
+row flexbox 
+  main axis = horizontal
+  cross axis = vertical
+
+column flexbox
+  main axis = vertical
+  cross axis = horizontal
+*/
+
+.container {
+  background-color: cadetblue;
+  padding:10px;
+  height:600px;
+  display:flex;
+
+  /* by default, flex boxes will render in the row flex-direction layout */
+  flex-direction:row;
+
+  flex-wrap:wrap;
+
+  /* justify content will align items along main axis */
+  justify-content: space-evenly;
+
+  /* align-items will align items along the cross axis, for non-wrapping flexboxes */
+
+  /* align-items:center; */
+
+  /* align-items and align-content cancel one another out or conflict */
+
+  /* align-content will align items along the cross axis for wrapping flexboxes */
+  align-content:center;
+
+  gap:40px 15px;
+}
+
+.item {
+  background-color: darkseagreen;
+  padding:10px;
+  border: 1px solid black;
+  width:200px;
+}

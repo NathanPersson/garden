@@ -8,13 +8,50 @@ img {
 
 body {
   background-color:black;
-  color: azure;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  font-family:Arial, Helvetica, sans-serif
+}
+
+a {
+  text-decoration: none;
+  color:white;
 }
 
 .title {
-  display:inline-block;
   text-align: center;
   padding:50px;
-  font-size:30px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+div {
+  font-size:50px;
+  margin:20px;
+}
+
+.center {
+  text-align: center;
+}
+
+.top {
+  position: absolute;
+  top:0;
+  left:50%;
+}
+
+.left {
+  position: absolute;
+  left:0;
+  top:40%;
+}
+
+.right {
+  position: absolute;
+  right:0;
+  top:40%;
+}
+
+.bottom {
+  position: absolute;
+  bottom:0;
+  left:50%;
 }
