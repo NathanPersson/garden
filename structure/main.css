@@ -3,7 +3,7 @@
 }
 
 img {
-    max-width:100%;
+    max-width:20%;
 }
 
 body {
@@ -17,12 +17,6 @@ a {
   color:white;
 }
 
-.title {
-  text-align: center;
-  padding:50px;
-  font-family:Georgia, 'Times New Roman', Times, serif;
-}
-
 div {
   font-size:50px;
   margin:20px;
@@ -32,10 +26,27 @@ div {
   text-align: center;
 }
 
+.title {
+  font-weight: bold;
+  padding:50px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.enter {
+  font-size:30px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.disclaimer {
+  font-size:15px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
 .top {
   position: absolute;
   top:0;
-  left:50%;
+  left:48%;
 }
 
 .left {
@@ -53,5 +64,12 @@ div {
 .bottom {
   position: absolute;
   bottom:0;
-  left:50%;
+  left:48%;
+}
+
+.image {
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  height: 600px;
 }
