@@ -9,14 +9,16 @@ img {
 body {
   margin:0;
   background-color: aqua;
+  overflow:hidden;
 }
 
 .container {
-  background: linear-gradient(0deg,rgba(34, 193, 195, 1) 0%, rgba(50, 158, 240, 1) 100%);
+  background: linear-gradient(0deg,rgba(34, 193, 195, 1) 0%, #329ef0 100%);
   height:100vh;
   display:flex;
   overflow:hidden;
   animation: backdrop 20s infinite alternate;
+  overflow:hidden;
 }
 
 @keyframes backdrop {
@@ -28,11 +30,93 @@ body {
   }
 }
 
+.algae1 {
+  width:30px;
+  height:100px;
+  background: radial-gradient(circle,rgba(255, 255, 255, 0.5) 0%, rgb(112, 177, 66) 100%);
+  border-radius:100%;
+  position:absolute;
+  left:10%;
+  animation: 
+    swim2 30s 10s infinite linear backwards,
+    rotate 10.5s infinite linear backwards;
+}
+
+.algae2 {
+  width:30px;
+  height:100px;
+  background: radial-gradient(circle,rgba(255, 255, 255, 0.5) 0%, rgb(112, 177, 66) 100%);
+  border-radius:100%;
+  position:absolute;
+  left:30%;
+  animation: 
+    swim2 35s 12s infinite linear backwards,
+    rotate 10s infinite linear backwards;
+}
+
+.algae3 {
+  width:30px;
+  height:100px;
+  background: radial-gradient(circle,rgba(255, 255, 255, 0.5) 0%, rgb(112, 177, 66) 100%);
+  border-radius:100%;
+  position:absolute;
+  left:50%;
+  animation: 
+    swim2 28s 3s infinite linear backwards,
+    rotate 11s infinite linear backwards;
+}
+
+.algae4 {
+  width:30px;
+  height:100px;
+  background: radial-gradient(circle,rgba(255, 255, 255, 0.5) 0%, rgb(112, 177, 66) 100%);
+  border-radius:100%;
+  position:absolute;
+  left:70%;
+  animation: 
+    swim2 30s 5s infinite linear backwards,
+    rotate 9.5s infinite linear backwards;
+}
+
+.algae5 {
+  width:30px;
+  height:100px;
+  background: radial-gradient(circle,rgba(255, 255, 255, 0.5) 0%, rgb(112, 177, 66) 100%);
+  border-radius:100%;
+  position:absolute;
+  left:90%;
+  animation: 
+    swim2 32s 20s infinite linear backwards,
+    rotate 9s infinite linear backwards;
+}
+
+@keyframes swim2 {
+0% {
+  top:-300px;
+}
+
+100% {
+  top:140%;
+}
+
+}
+
+@keyframes rotate {
+0% {
+  rotate:0deg;
+}
+
+100% {
+  rotate:360deg;
+}
+
+}
+
 .plankton1 {
   width:100px;
   height:100px;
   background: radial-gradient(circle,rgba(255, 255, 255, 0.5) 0%, rgba(255, 248, 220, 1) 100%);
-  position:relative;
+  position:absolute;
   display:flex;
   animation: swim 20s infinite linear backwards;
   left:-250px;
@@ -45,7 +129,7 @@ body {
   width:100px;
   height:100px;
   background: radial-gradient(circle,rgba(255, 255, 255, 0.5) 0%, rgba(255, 248, 220, 1) 100%);
-  position:relative;
+  position:absolute;
   display:flex;
   animation: swim 19s 15s infinite linear backwards;
   left:-250px;
@@ -58,7 +142,7 @@ body {
   width:100px;
   height:100px;
   background: radial-gradient(circle,rgba(255, 255, 255, 0.5) 0%, rgba(255, 248, 220, 1) 100%);
-  position:relative;
+  position:absolute;
   display:flex;
   animation: swim 18s 8s infinite linear backwards;
   left:-250px;
@@ -96,7 +180,7 @@ background: radial-gradient(circle,rgba(255, 255, 255, 0.5) 0%, rgba(255, 248, 2
 .eye {
   width:15px;
   height:20px;
-  background: brown;
+  background: #a52a2a;
   position:absolute;
   top:40px;
   left:90px;
