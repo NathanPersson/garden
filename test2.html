@@ -1,0 +1,33 @@
+<html>
+<body>
+   <img src="image/sprout2.png" id="image1" onclick="changeSrc1()">
+   <!-- <button id="btn" onclick="changeSrc()">Click to change the Image</button> -->
+
+   <img src="image/sprout2.png" id="image2" onclick="changeSrc2()">
+   <!-- <button id="btn" onclick="changeSrc()">Click to change the Image</button> -->
+   
+   <script>
+    //   var result = document.getElementById("result");
+    //   var upper = document.getElementById("upper");
+      var sprout = 1;
+      
+      function changeSrc1() {
+         var img = document.getElementById('image1');
+         
+         if (sprout = 1) {
+            img.src = "image/sprout3.png";
+            sprout = 2;
+         }
+      }
+
+      function changeSrc2() {
+         var img = document.getElementById('image2');
+         
+         if (sprout = 1) {
+            img.src = "image/journal.png";
+            sprout = 2;
+         }
+      }
+   </script>
+</body>
+</html>

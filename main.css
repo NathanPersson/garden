@@ -1,0 +1,32 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color:#c6ec98;
+    color: #103c1e;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    /* overflow: hidden; */
+}
+
+#container {
+  width: 80%;
+  height: 80%;
+  position: relative;
+  padding: 40px;
+  margin: 20px;
+  /* overflow: hidden; */
+}
+
+.item {
+  position: absolute;
+  margin: 20px;
+  margin: 20px;
+  cursor: url(image/watering_can.png), pointer;
+}
+
+a {
+    cursor: url(image/watering_can.png), pointer;
+}

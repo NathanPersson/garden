@@ -83,12 +83,19 @@ body {
   top:0;
   width:300px;
   height:100vh;
-
+  padding-top:60px;
   transition: right 0.3s;
+  overflow:auto;
 }
 
 .menu-active {
   right:0;
+}
+
+.menu-item {
+  background-color: cornsilk;
+  padding: 10px;
+  margin: 0px 10px 10px 10px
 }
 
 .menu-button {

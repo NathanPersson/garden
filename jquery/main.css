@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+    max-width:100%;
+}
+
+body {
+  margin:0;
+}
+
+.buttons {
+  position:fixed;
+  top:10px;
+  left:10px;
+}
+
+.container {
+  background-color: blanchedalmond;
+  height:100vh;
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.container.dark {
+  background-color: burlywood;
+}
+
+.box {
+  background-color: burlywood;
+  width:100px;
+  height:100px;
+  animation: spin 5s infinite linear;
+  animation-play-state: paused;
+}
+
+.box.dark {
+  background-color:rgb(166, 135, 94);
+}
+
+.box.spin {
+  animation-play-state: running;
+}
+
+@keyframes spin {
+  0% {
+    rotate:0;
+  }
+  100% {
+    rotate:360deg;
+  }
+}
+
+.book {
+  width:120px;
+  position:fixed;
+  bottom:5px;
+  right:20px;
+  display:none;
+}
+
+.book.reveal {
+  display:block;
+}
+
+.draggable {
+  cursor:grab;
+}
