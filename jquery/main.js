@@ -19,6 +19,11 @@ $(".reveal-btn").click(
     }
 )
 
-$( function() {
-    $( ".draggable" ).draggable();
+
+$( ".draggable" ).draggable({
+    containment: ".container",
+    scroll: false,
+    snap:true,
+    grid:[50,50],
+    stack: ".draggable"
   } );

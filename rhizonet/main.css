@@ -8,41 +8,100 @@ img {
 }
 
 body {
+  font-family: 'recursive-mono-linear-static', sans-serif;
+  font-size:12px;
   margin:0;
+  background: #252619;
 }
 
 .container {
+  color:#c7c95a;
   display:flex;
   flex-wrap:wrap;
   height:100vh;
   overflow: hidden;
 }
 
+.left {
+  width: 30%;
+  height: 100%;
+  display:flex;
+  flex-direction:column;
+}
+
+.title {
+  position:relative;
+  display:flex;
+  justify-content:left;
+  padding-left:5%;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+}
+
+.server {
+  background: rgba(55, 60, 53, 1);
+  position:relative;
+  overflow: auto;
+  width: 50%;
+  height:5%;
+  margin:5% 5% 0% 5%;
+  border-radius: 10px 20px 10px 20px;
+  padding-left:20px;
+  padding-top:5px;
+  border:#c7c95a solid; 
+  border-width:1px 1px 6px 3px;
+}
+
 .chatlog {
-  background-color: cadetblue;
+  /* background: linear-gradient(0deg,rgba(55, 60, 53, 1) 70%, rgba(9, 28, 17, 1) 100%); */
+  background: rgba(55, 60, 53, 1);
   position:relative;
   left:0;
   top:0;
-  width: 30%;
-  height: 100%;
+  width: 90%;
+  height: 85%;
   padding:20px;
   overflow:auto;
-  border: solid 20px white;
+  margin:5%;
+  border-radius: 10px 60px 10px 30px;
+  border:#c7c95a solid; 
+  border-width:1px 1px 6px 3px;
+}
+
+.date {
+  padding:10px;
+  text-align: center;
+}
+
+.orange {
+  color:#e98a60;
+  padding:10px;
+  font-weight:bold;
+}
+
+.green {
+  color:#5e834d;
+  padding:10px;
+  font-weight:bold;
 }
 
 .message-name {
-  background-color: lightblue;
   padding:10px;
+  font-weight:bold;
 }
 
 .message-text {
-  background-color: lightgoldenrodyellow;
   padding:10px;
   margin: 0px 0px 10px 10px;
 }
 
+.message-text:hover {
+  background: rgb(65, 71, 62);
+  border-radius: 10px 30px 10px 15px;
+}
+
 .right {
-  background-color: red;
   position:relative;
   display:flex;
   flex-direction:column;
@@ -53,39 +112,73 @@ body {
   overflow:auto;
 }
 
-.illo {
-  background-color: blue;
+.rightblock {
+  background: rgba(55, 60, 53, 1);
   position:relative;
+  display:flex;
+  flex-direction:column;
+  border-radius: 0px 0px 0px 30px;
+  margin-bottom: 80px;
+  border:#c7c95a solid;
+  border-width:0px 0px 6px 3px;
+}
+
+.illo {
+  position:relative;
+  display:flex;
   width:100%;
 }
 
 .narration {
-  background-color: yellow;
   position:relative;
   text-align: center;
   width:100%;
-  padding:20px;
+  padding:20px 80px 50px 80px;
 }
-
+/* 
 .controls {
-  background-color: lightblue;
   position:relative;
   display:flex;
   justify-content:space-between;
   width:100%;
   padding:20px;
+} */
+
+.leftarrow {
+  position:absolute;
+  left:0;
+  bottom:5%;
+}
+
+.rightarrow {
+  position:absolute;
+  right:0;
+  bottom:5%;
+}
+
+
+.leftarrow:hover {
+  scale:110%;
+}
+
+.rightarrow:hover {
+  scale:110%;
 }
 
 .menu {
-  background-color: greenyellow;
+  background: #252619;
+  color:#c7c95a;
   position: fixed;
   right:-300px;
   top:0;
   width:300px;
-  height:100vh;
-  padding-top:60px;
+  height:95%;
+  padding-top:70px;
   transition: right 0.3s;
   overflow:auto;
+  border-radius: 0px 0px 0px 30px;
+  border:#c7c95a solid;
+  border-width:0px 0px 6px 3px;
 }
 
 .menu-active {
@@ -93,17 +186,33 @@ body {
 }
 
 .menu-item {
-  background-color: cornsilk;
+  background: rgba(55, 60, 53, 1);
+  display:inline-block;
   padding: 10px;
-  margin: 0px 10px 10px 10px
+  border-radius: 20px;
+  margin-left:10px;
+  margin-top:10px;
+}
+
+.menu-item:hover {
+  background: rgb(65, 71, 62);
+}
+
+.menu-button:hover {
+  scale:110%;
+  background: rgb(65, 71, 62);
 }
 
 .menu-button {
-  background-color: black;
+  background: rgba(55, 60, 53, 1);
   position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px 20px 10px 15px;
   right:0;
   top:0;
-  width:40px;
-  height:40px;
+  width:60px;
+  height:60px;
   margin:10px;
 }
