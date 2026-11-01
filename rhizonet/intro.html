@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        
+        <title>Connecting...</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://use.typekit.net/pbz8qha.css">
+    </head>
+    <body  class="intro">
+
+        <div>
+
+            <div class="intro-item item1" onclick="intro1()">
+                Are you there?
+            </div>
+            <div class="intro-item item2 hide" onclick="intro2()">
+                Can you hear us?
+            </div>
+            <div class="intro-item item3 hide" onclick="intro3()">
+                Can you see us?
+            </div>
+            <div class="intro-item item4 hide" onclick="intro4()">
+                Do you know us?
+            </div>
+            <div class="intro-item item5 hide" onclick="intro5()">
+                ...
+            </div>
+            <div class="intro-item item6 hide" onclick="intro6()">
+                There you are.
+            </div>
+            <div class="intro-item item7 hide" onclick="intro7()">
+                You will need to adjust to this.
+            </div>
+            <div class="intro-item item8 hide" onclick="intro8()">
+                It takes a lot to forget everything you thought you knew.
+            </div>
+            <div class="intro-item item9 hide" onclick="intro9()">
+                But... Please.
+            </div>
+            <div class="intro-item item10 hide" onclick="intro10()">
+                Embrace us, Philomena.
+            </div>
+            <div class="intro-button hide">
+                <a href="pages/page1.html">
+                    Connect to the RhizoNet
+                </a>
+            </div>
+
+        </div>
+
+        <div class="menu">
+
+            <div class="menu-item">
+                <a href="index.html">
+                    Home
+                </a>
+            </div>
+            <div class="menu-item this-page">
+                <a href="intro.html">
+                    Intro
+                </a>
+            </div>
+            <div class="menu-item">
+                <a href="pages/page1.html">
+                    1
+                </a>
+            </div>
+            <div class="menu-item">
+                <a href="pages/page2.html">
+                    2
+                </a>
+            </div>
+            <div class="menu-item">
+                <a href="pages/page3.html">
+                    3
+                </a>
+            </div>
+            <div class="menu-item">
+                <a href="pages/page4.html">
+                    4
+                </a>
+            </div>
+
+        </div>
+
+        <div class="menu-button hide" onclick="change()">
+            <img class="menu_icon" src="image/menubutton.png" width="90%">  
+        </div>
+
+        <script>
+            function intro1() {
+                document.querySelector(".item2").classList.remove("hide");
+            }
+
+            function intro2() {
+                document.querySelector(".item3").classList.remove("hide");
+            }
+
+            function intro3() {
+                document.querySelector(".item4").classList.remove("hide");
+            }
+
+            function intro4() {
+                document.querySelector(".item5").classList.remove("hide");
+            }
+
+            function intro5() {
+                document.querySelector(".item6").classList.remove("hide");
+                document.querySelector("body").classList.remove("intro");
+            }
+
+            function intro6() {
+                document.querySelector(".item7").classList.remove("hide");
+            }
+
+            function intro7() {
+                document.querySelector(".item8").classList.remove("hide");
+            }
+
+            function intro8() {
+                document.querySelector(".item9").classList.remove("hide");
+            }
+
+            function intro9() {
+                document.querySelector(".item10").classList.remove("hide");
+            }
+
+            function intro10() {
+                document.querySelector(".intro-button").classList.remove("hide");
+                document.querySelector(".menu-button").classList.remove("hide");
+            }
+
+            function change() {
+                document.querySelector(".menu").classList.toggle("menu-active");
+            }
+        </script>
+
+    </body>
+</html>

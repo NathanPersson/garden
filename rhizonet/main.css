@@ -11,7 +11,36 @@ body {
   font-family: 'recursive-mono-linear-static', sans-serif;
   font-size:12px;
   margin:0;
+  color:#c7c95a;
   background: #252619;
+  transition: color 2s, background 2s;
+}
+
+a {
+  color:#c7c95a;
+  text-decoration: none;
+}
+
+.start-button {
+  color:#c7c95a;
+  background: #373c35;
+  position:relative;
+  overflow: auto;
+  width: 25%;
+  height:5%;
+  margin:auto;
+  margin-top:10%;
+  border-radius: 10px 20px 10px 20px;
+  padding:10px;
+  border:#c7c95a solid; 
+  border-width:1px 1px 6px 3px;
+  text-align: center;
+  font-size:16px;
+}
+
+.start-button:hover {
+  background: rgb(65, 71, 62);
+  font-weight:bold;
 }
 
 .container {
@@ -20,6 +49,44 @@ body {
   flex-wrap:wrap;
   height:100vh;
   overflow: hidden;
+}
+
+.intro {
+  background-color: black;
+  color:white;
+}
+
+.intro-item {
+  position:relative;
+  text-align: center;
+  padding:7px;
+  margin: 10px;
+}
+
+.intro-item:hover {
+  font-weight:bold;
+  scale:105%;
+}
+
+.intro-button {
+  color:#c7c95a;
+  background: #373c35;
+  position:relative;
+  overflow: auto;
+  width: 25%;
+  height:5%;
+  margin:auto;
+  border-radius: 10px 20px 10px 20px;
+  padding:10px;
+  border:#c7c95a solid; 
+  border-width:1px 1px 6px 3px;
+  text-align: center;
+  font-size:16px;
+}
+
+.intro-button:hover {
+  background: rgb(65, 71, 62);
+  font-weight:bold;
 }
 
 .left {
@@ -39,8 +106,15 @@ body {
   height: 10%;
 }
 
+.title-home {
+  position:relative;
+  display:block;
+  width: 100%;
+  padding:auto;
+}
+
 .server {
-  background: rgba(55, 60, 53, 1);
+  background: #373c35;
   position:relative;
   overflow: auto;
   width: 50%;
@@ -69,31 +143,40 @@ body {
   border-width:1px 1px 6px 3px;
 }
 
-.date {
+.announce {
   padding:10px;
   text-align: center;
+  font-weight:bold;
 }
 
 .orange {
   color:#e98a60;
-  padding:10px;
-  font-weight:bold;
 }
 
 .green {
-  color:#5e834d;
-  padding:10px;
-  font-weight:bold;
+  color:#549852;
+}
+
+.blue {
+  color:#4986e3;
+}
+
+.magenta {
+  color:#e3499e;
+}
+
+.yellow {
+  color:#ffe590;
 }
 
 .message-name {
-  padding:10px;
+  padding:7px;
   font-weight:bold;
 }
 
 .message-text {
-  padding:10px;
-  margin: 0px 0px 10px 10px;
+  padding:7px;
+  margin: 0px 0px 0px 10px;
 }
 
 .message-text:hover {
@@ -134,15 +217,8 @@ body {
   text-align: center;
   width:100%;
   padding:20px 80px 50px 80px;
+  font-size:14px;
 }
-/* 
-.controls {
-  position:relative;
-  display:flex;
-  justify-content:space-between;
-  width:100%;
-  padding:20px;
-} */
 
 .leftarrow {
   position:absolute;
@@ -196,6 +272,12 @@ body {
 
 .menu-item:hover {
   background: rgb(65, 71, 62);
+  font-weight:bold;
+}
+
+.this-page {
+  background: rgb(65, 71, 62);
+  font-weight:bold;
 }
 
 .menu-button:hover {
@@ -215,4 +297,8 @@ body {
   width:60px;
   height:60px;
   margin:10px;
+}
+
+.hide {
+  display:none;
 }

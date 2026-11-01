@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        
+        <title>RhizoNet</title>
+        <link rel="stylesheet" href="../main.css">
+        <link rel="stylesheet" href="https://use.typekit.net/pbz8qha.css">
+    </head>
+    <body>
+        
+    <div class="container">
+
+        <div class="left">
+
+            <div class="title">
+                <img src="../image/logo.png" width="70%">
+            </div>
+
+            <div class="server">Local Chat</div>
+
+            <div class="chatlog">
+               <div class="message-name">newUser</div>
+                    <div class="message-text">WHAT THE FUCK IS GOING ON IN MY HEAD?</div>
+            </div>
+        
+        </div>
+
+        <div class="right">
+
+            <div class="rightblock">
+
+                <div class="illo">
+                    <img src="../image/illustrations/illo_4.png">  
+                    <a href="page3.html"> 
+                        <img class="leftarrow" src="../image/leftarrow.png" width="10%"> 
+                    </a>
+                    <a href="../comingsoon.html">
+                        <img class="rightarrow" src="../image/rightarrow.png" width="10%">  
+                    </a>
+                </div>
+
+                <div class="narration"> 
+                    ...and vice versa.
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+        <div class="menu">
+
+            <div class="menu-item">
+                <a href="../index.html">
+                    Home
+                </a>
+            </div>
+            <div class="menu-item">
+                <a href="../intro.html">
+                Intro
+                </a>
+            </div>
+            <div class="menu-item">
+                <a href="page1.html">
+                    1
+                </a>
+            </div>
+            <div class="menu-item">
+                <a href="page2.html">
+                    2
+                </a>
+            </div>
+            <div class="menu-item">
+                <a href="page3.html">
+                    3
+                </a>
+            </div>
+            <div class="menu-item this-page">
+                <a href="page4.html">
+                    4
+                </a>
+            </div>
+
+        </div>
+
+        <div class="menu-button" onclick="change()">
+            <img class="menu_icon" src="../image/menubutton.png" width="90%">  
+        </div>
+
+    </div>
+
+        <script>
+            function change() {
+                document.querySelector(".menu").classList.toggle("menu-active");
+            }
+        </script>
+
+    </body>
+</html>
