@@ -61,6 +61,7 @@ a {
   text-align: center;
   padding:7px;
   margin: 10px;
+  cursor:pointer;
 }
 
 .intro-item:hover {
@@ -297,6 +298,7 @@ a {
   width:60px;
   height:60px;
   margin:10px;
+  cursor:pointer;
 }
 
 .hide {
